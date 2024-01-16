@@ -1,4 +1,4 @@
-<h1 align="center"> Treine.me </h1>
+<h1 align="center"> Formulário de Mentorias </h1>
 
 <p align="center">
 Programa exclusivo, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
