@@ -165,3 +165,60 @@ footer button:hover {
 input:invalid {
   outline: 1px solid #eb4e6d;
 }
+
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+  }
+
+  .page {
+    width: 100vw;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 5rem;
+  }
+
+  :is(h1, p) {
+    width: 100vw;
+  }
+
+  form {
+    width: 100vw;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+  }
+
+  form fieldset:last-child {
+    margin-top: 2rem;
+  }
+
+  .input-wrapper-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-wrapper-date {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-wrapper-date .input-wrapper input {
+    width: 100%;
+  }
+
+  footer {
+    width: 100vw;
+    padding: 0 2rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+
+  footer button {
+    font-size: 1rem;
+  }
+}
